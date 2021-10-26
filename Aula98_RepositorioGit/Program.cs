@@ -28,10 +28,11 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
         - A cada vez que alteramos um projeto com sucesso, devemos fazer um Commit;
         - GIT STATUS: git status - verifica como esta o repositorio Git do projeto;
         - Os arquivos indicados em vermelho ainda nao foram rastreados pelo Git;
-        - GIOT ADD . : git add . - coloca os arquivos modificados na area de "Stage". Essa, por sua vez, e a area onde
+        - GIT ADD . : git add . - coloca os arquivos modificados na area de "Stage". Essa, por sua vez, e a area onde
           vao os arquivos que estao protos para participarem do Commit que sera rodado;
         - GIT COMMIT -M "DESCRICAO": git commit -m "Descricao do commit" - comentario sobre o que foi alterado
         - GIT LOG: git log - informa o log com todas as alteracoes efetuadas
+        - GIT LOG --ONELINE: git log --oneline - informa os logs de forma sucinta
 
 */
 
