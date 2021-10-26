@@ -26,11 +26,12 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
 
     > Salvando uma Versao do projeto - A acao de se salvar uma Versao do projeto, damos o nome de COMMIT:
         - A cada vez que alteramos um projeto com sucesso, devemos fazer um Commit;
-        - Comando: git status - verifica como esta o repositorio Git do projeto;
+        - GIT STATUS: git status - verifica como esta o repositorio Git do projeto;
         - Os arquivos indicados em vermelho ainda nao foram rastreados pelo Git;
-        - Comando: git add . - coloca os arquivos modificados na area de "Stage". Essa, por sua vez, e a area onde
+        - GIOT ADD . : git add . - coloca os arquivos modificados na area de "Stage". Essa, por sua vez, e a area onde
           vao os arquivos que estao protos para participarem do Commit que sera rodado;
-        - Comando: git commit -m "Descricao do commit"
+        - GIT COMMIT -M "DESCRICAO": git commit -m "Descricao do commit" - comentario sobre o que foi alterado
+        - GIT LOG: git log - informa o log com todas as alteracoes efetuadas
 
 */
 
@@ -42,6 +43,7 @@ namespace Aula98_RepositorioGit {
 
             Console.WriteLine("Repositorio Git:");
             Console.WriteLine("Converte o projeto para um repositorio Git");
+            Console.WriteLine("Outra alteracao");
 
             Console.WriteLine();
 
