@@ -15,7 +15,7 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
 
     > Inicianto um Repositorio Git na pasta do projeto desejada:    
         - Abrir o Git Bash clicando com o botao direito do mouse na pasta do projeto e selecionando "Git Bash Here";
-        - Digitar, no prompt que foi aberto, o comando "git init";
+        - GIT INIT: Digitar, no prompt que foi aberto, o comando "git init";
         - Uma pasta oculta ".git" e criada dentro da pasta do projeto. Ela e o repositorio que controlara as versoes.
           Esta pasta nao deve ser alterada. 
 
