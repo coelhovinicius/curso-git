@@ -34,6 +34,8 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
         - GIT LOG: git log - informa o log com todas as alteracoes efetuadas
         - GIT LOG --ONELINE: git log --oneline - informa os logs de forma sucinta
 
+     > Saindo do 
+
 */
 
 using System;
@@ -48,6 +50,7 @@ namespace Aula98_RepositorioGit {
             Console.WriteLine("Teste");
             Console.WriteLine("Teste");
             Console.WriteLine("Alteracao");
+            Console.WriteLine("Teste");
 
             Console.WriteLine();
 
