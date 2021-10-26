@@ -45,6 +45,7 @@ namespace Aula98_RepositorioGit {
             Console.WriteLine("Repositorio Git:");
             Console.WriteLine("Converte o projeto para um repositorio Git");
             Console.WriteLine("Outra alteracao");
+            Console.WriteLine("Teste");
 
             Console.WriteLine();
 
