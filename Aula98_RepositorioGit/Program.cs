@@ -34,7 +34,17 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
         - GIT LOG: git log - informa o log com todas as alteracoes efetuadas
         - GIT LOG --ONELINE: git log --oneline - informa os logs de forma sucinta
 
-     > Saindo do 
+    > Saindo do Editor VIM - caso esqueca de colocar algo no Commit, sera aberto o editor Vim. Para sair:
+        - <Esc>;
+        - Comando :q!  
+
+    > Voltar ao estado do Commit atual - Antes de efetuar um novo Commit (descarta todas as modificacoes no projeto):
+        - GIT CLEAN -DF: git clean -df
+        - GIT CHECKOUT -- . : git checkout -- .
+
+    > Desfazer o ultimo Commit - Depois de efetuar um novo Commit:
+        - GIT RESET --SOFT HEAD~1: git reset --soft HEAD~1 (descarta o Commit mas nao descarta as modificacoes no projeto);
+        - GIT RESET --HARD HEAD~1 : git reset --hard HEAD~1 (descarta o Commit e todas as modificacoes no projeto).
 
 */
 
@@ -51,6 +61,7 @@ namespace Aula98_RepositorioGit {
             Console.WriteLine("Teste");
             Console.WriteLine("Alteracao");
             Console.WriteLine("Teste");
+            Console.WriteLine("Fazendo um novo Commit");
 
             Console.WriteLine();
 
