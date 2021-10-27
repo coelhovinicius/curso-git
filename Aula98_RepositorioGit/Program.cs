@@ -71,6 +71,7 @@ namespace Aula98_RepositorioGit {
             Console.WriteLine("Fazendo um novo Commit");
             Console.WriteLine("Teste de Checkout");
             Console.WriteLine("Teste de Push");
+            Console.WriteLine("Mais um teste");
 
             Console.WriteLine();
 
