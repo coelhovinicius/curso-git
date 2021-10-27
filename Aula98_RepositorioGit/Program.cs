@@ -42,9 +42,16 @@ que esta disponibilizada ao arquivo .gitignore, abrindo-o como bloco de notas, p
         - GIT CLEAN -DF: git clean -df
         - GIT CHECKOUT -- . : git checkout -- .
 
-    > Desfazer o ultimo Commit - Depois de efetuar um novo Commit:
+    > Desfazer o ultimo Commit - Depois de efetuar um novo Commit (descarta o ultimo Commit):
         - GIT RESET --SOFT HEAD~1: git reset --soft HEAD~1 (descarta o Commit mas nao descarta as modificacoes no projeto);
         - GIT RESET --HARD HEAD~1 : git reset --hard HEAD~1 (descarta o Commit e todas as modificacoes no projeto).
+
+    > Verificar o estado dos Commits feitos anteriormente (e depois, voltar para o atual):
+        - Primeiramente, nao pode haver itens a serem commitados no GIT STATUS;
+        - GIT CHECKOUT numeroDoCommit: git checkout numeroDoCommit (o numero do commit pode ser verificado com o
+          comando GIT LOG --ONELINE) - isso faz com que o Commit selecionado torne-se HEAD e volta o projeto ao
+          estado desse Commit.
+        - GIT CHECKOUT MASTER: git checkout master - faz com que o sistema volte ao "branch" MASTER.
 
 */
 
@@ -62,6 +69,7 @@ namespace Aula98_RepositorioGit {
             Console.WriteLine("Alteracao");
             Console.WriteLine("Teste");
             Console.WriteLine("Fazendo um novo Commit");
+            Console.WriteLine("Teste de Checkout");
 
             Console.WriteLine();
 
